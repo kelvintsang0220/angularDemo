@@ -1,0 +1,5 @@
+.menu{list-style:none;border-bottom:.1em solid #000;margin-bottom:2em;padding:0 0 .5em}
+.menu:before{content:"["}
+.menu:after{content:"]"}
+.menu>li{display:block}
+.menu>li+li:before{content:"|";padding-right:.3em}
