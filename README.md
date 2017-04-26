@@ -4,7 +4,7 @@
 
 **_Step2_**：全局安装Gulp，命令行npm install gulp(可以百度一下cnpm，是一个淘宝的NPM镜像，可以有效避免npm需要翻墙的问题,基本需要用到npm的地方都可以改为cnpm)；
 
-**_Step3_**：命令行cd到angularDemo后，本地安装uglify(JS代码压缩)、livereload(保存刷新)、webserver（本地服务器）、minify-css(CSS代码压缩)、sourcemap（生成map），命令行cnpm install gulp-uglify gulp-livereload gulp-webserver gulp-minify-css gulp-sourcemaps --save-dev ;
+**_Step3_**：命令行cd到angularDemo后，本地安装uglify(JS代码压缩)、livereload(保存刷新)、webserver（本地服务器）、minify-css(CSS代码压缩)、sourcemap（生成map），命令行cnpm install gulp-uglify gulp-livereload gulp-webserver gulp-clean-css gulp-sourcemaps --save-dev ;
 
 **_Step4_**：命令行输入cnpm install bower，安装本地bower；
 

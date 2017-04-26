@@ -7,7 +7,7 @@ var gulp = require('gulp'); // 基础库
 var uglify = require('gulp-uglify'); // js压缩
 var livereload = require('gulp-livereload'), // 网页自动刷新（文件变动后即时刷新页面）
     webserver = require('gulp-webserver'); // 本地服务器
-var minifyCss = require('gulp-minify-css'); // CSS压缩
+var minifyCss = require('gulp-clean-css'); // CSS压缩
 var sourcemaps = require('gulp-sourcemaps'); //来源地图
 
 //css代码压缩
