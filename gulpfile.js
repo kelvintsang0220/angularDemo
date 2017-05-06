@@ -12,7 +12,7 @@ var sourcemaps = require('gulp-sourcemaps'); //来源地图
 
 //css代码压缩
 gulp.task('minifyCss', function() {
-    return gulp.src(['app/*/*/*.css','app/*/*.css','app/*.css'])
+    return gulp.src(['app/*/*/*.CSS','app/*/*.CSS','app/*.CSS'])
         .pipe(minifyCss({keepBreaks:true}))
         .pipe(gulp.dest('./dist/'));
 });
@@ -40,8 +40,8 @@ gulp.task('webserver', function() {
 gulp.task('watch',function(){
     // 监听 html
     gulp.watch(['app/*/*/*.html','app/*/*.html','app/*.html'])
-    // 监听 css
-    gulp.watch(['app/*/*/*.css','app/*/*.css','app/*.css'],['minifyCss']);
+    // 监听 CSS
+    gulp.watch(['app/*/*/*.CSS','app/*/*.CSS','app/*.CSS'],['minifyCss']);
     // 监听 js
     gulp.watch(['app/*/*/*.js','app/*/*.js','app/*.js'],['script']);
 });
