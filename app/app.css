@@ -16,7 +16,7 @@
 }
 
 .menu > li {
-  display: block;
+  display: inline-block;
 }
 
 .menu > li + li:before {
