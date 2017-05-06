@@ -36,14 +36,14 @@ gulp.task('webserver', function() {
 });
 
 
-// 监听任务,可视化编辑、CSS\JS文件改变时自动压缩
+// 监听任务,可视化编辑
 gulp.task('watch',function(){
     // 监听 html
     gulp.watch(['app/*/*/*.html','app/*/*.html','app/*.html'])
     // 监听 CSS
-    gulp.watch(['app/*/*/*.CSS','app/*/*.CSS','app/*.CSS'],['minifyCss']);
+    gulp.watch(['app/*/*/*.CSS','app/*/*.CSS','app/*.CSS']);
     // 监听 js
-    gulp.watch(['app/*/*/*.js','app/*/*.js','app/*.js'],['script']);
+    gulp.watch(['app/*/*/*.js','app/*/*.js','app/*.js']);
 });
 
 
